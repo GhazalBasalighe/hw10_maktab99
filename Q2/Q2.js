@@ -2,6 +2,7 @@
 const weightInput = document.querySelector("#weight");
 const heightInput = document.querySelector("#height");
 const submitButton = document.querySelector("button");
+const cardContainer = document.querySelector(".card");
 
 // FUNCTION FOR FOCUS EVENT
 function backgroundColorChange(element) {
@@ -9,16 +10,25 @@ function backgroundColorChange(element) {
   element.style.backgroundColor = "rgb(60, 60, 60)";
 }
 
+function backgroundColorReset(element) {
+  element.classList.add("bg-secondary");
+  element.style.backgroundColor = "";
+}
+
 //ATTACHING EVENT LISTENERS TO EACH ELEMENT
 weightInput.addEventListener("focus", function () {
   backgroundColorChange(weightInput);
-  heightInput.classList.add("bg-secondary");
-  heightInput.style.backgroundColor = "";
+  backgroundColorReset(heightInput);
 });
 heightInput.addEventListener("focus", function () {
   backgroundColorChange(heightInput);
-  weightInput.classList.add("bg-secondary");
-  weightInput.style.backgroundColor = "";
+  backgroundColorReset(weightInput);
 });
 
-// REMOVING THE EVENT LISTENERS IF IT WAS CLICKED ON THE CONTAINER ITSELF
+// REMOVING THE CLASSES IF IT WAS CLICKED ON THE CONTAINER ITSELF
+cardContainer.addEventListener("click", function (event) {
+  if (event.target === cardContainer) {
+    backgroundColorReset(heightInput);
+    backgroundColorReset(weightInput);
+  }
+});
