@@ -6,13 +6,19 @@
         <meta name="viewport" content="width=], initial-scale=1.0">
         <title>Order Sign Up</title>
         <link rel="stylesheet" href="scss/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="container-fluid bg-secondary vh-100 pe-0 ps-4">
+            <!-- INNER WHITE BOX -->
             <div class="container bg-light vh-100 pe-0 rounded-start-5 shadow-lg border-5 border-info px-4">
-                <div class="content pt-5 d-flex flex-column align-items-start">
-                    <span class="">
+                <!-- CONTENT OF THE INNER BOX -->
+                <div class="content pt-5 d-flex flex-column gap-5 px-3">
+                    <!-- HEADING -->
+                    <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="245" height="29" viewBox="0 0 245 29"
                             fill="none">
                             <g filter="url(#filter0_d_1_168)">
@@ -40,6 +46,59 @@
                             </defs>
                         </svg>
                     </span>
+                    <!-- INPUT GROUP -->
+                    <form class="pt-5 d-flex flex-column gap-5 px-3">
+                        <div class="input-group">
+                            <input type="text"
+                                class="form-control border-0 shadow-none bg-transparent border-bottom me-5 rounded-0 text-start ps-0"
+                                placeholder="First name" aria-label="First name">
+                            <input type="text"
+                                class="form-control border-0 shadow-none bg-transparent border-bottom rounded-0 text-start ps-0"
+                                placeholder="Last name" aria-label="Last name">
+                        </div>
+                        <input type="text"
+                            class="form-control border-0 shadow-none bg-transparent border-bottom me-5 rounded-0 text-start ps-0"
+                            placeholder="Username , email & phone number">
+                        <div class="input-group flex-nowrap">
+                            <input type="password"
+                                class="form-control border-0 shadow-none bg-transparent border-bottom rounded-0 text-start ps-0"
+                                placeholder="Password ......">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M15.0288 12.6427C16.9425 10.935 18 9 18 9C18 9 14.625 2.8125 8.99996 2.8125C7.9195 2.81622 6.85127 3.04135 5.86121 3.474L6.72746 4.34137C7.45582 4.07605 8.22477 3.93939 8.99996 3.9375C11.385 3.9375 13.3638 5.2515 14.814 6.70162C15.5119 7.40328 16.1375 8.17327 16.6815 9C16.6162 9.09788 16.5442 9.20587 16.4621 9.324C16.0852 9.864 15.5283 10.584 14.814 11.2984C14.6283 11.484 14.4348 11.6674 14.2323 11.8451L15.0288 12.6427Z"
+                                            fill="#635C5C" fill-opacity="0.6" />
+                                        <path
+                                            d="M12.7092 10.323C12.9602 9.62079 13.0067 8.86176 12.8432 8.13419C12.6797 7.40663 12.313 6.74044 11.7857 6.21314C11.2584 5.68585 10.5923 5.31913 9.86468 5.15565C9.13712 4.99218 8.37809 5.03867 7.67591 5.28972L8.60178 6.2156C9.03413 6.15371 9.47495 6.19337 9.88931 6.33143C10.3037 6.46949 10.6802 6.70215 10.989 7.01098C11.2979 7.31982 11.5305 7.69633 11.6686 8.11069C11.8066 8.52505 11.8463 8.96587 11.7844 9.39822L12.7092 10.323ZM9.39828 11.7843L10.323 12.7091C9.62085 12.9601 8.86182 13.0066 8.13426 12.8432C7.40669 12.6797 6.7405 12.313 6.2132 11.7857C5.68591 11.2584 5.31919 10.5922 5.15572 9.86462C4.99224 9.13706 5.03873 8.37802 5.28978 7.67585L6.21566 8.60172C6.15377 9.03407 6.19343 9.47489 6.33149 9.88925C6.46955 10.3036 6.70221 10.6801 7.01105 10.989C7.31988 11.2978 7.69639 11.5305 8.11075 11.6685C8.52511 11.8066 8.96593 11.8462 9.39828 11.7843Z"
+                                            fill="#635C5C" fill-opacity="0.6" />
+                                        <path
+                                            d="M3.76875 6.15375C3.56625 6.33375 3.37162 6.516 3.186 6.70162C2.4881 7.40327 1.86246 8.17326 1.3185 9L1.53787 9.324C1.91475 9.864 2.47163 10.584 3.186 11.2984C4.63613 12.7485 6.61613 14.0625 9 14.0625C9.8055 14.0625 10.5638 13.9129 11.2725 13.6575L12.1388 14.526C11.1487 14.9586 10.0805 15.1837 9 15.1875C3.375 15.1875 0 9 0 9C0 9 1.05638 7.06387 2.97113 5.35725L3.76762 6.15487L3.76875 6.15375ZM15.3517 16.1482L1.85175 2.64825L2.64825 1.85175L16.1483 15.3517L15.3517 16.1482Z"
+                                            fill="#635C5C" fill-opacity="0.6" />
+                                    </g>
+                                </svg></span>
+                        </div>
+                        <div class="input-group flex-nowrap">
+                            <input type="password"
+                                class="form-control border-0 shadow-none bg-transparent border-bottom rounded-0 text-start ps-0"
+                                placeholder="Password again ......">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M15.0288 12.6427C16.9425 10.935 18 9 18 9C18 9 14.625 2.8125 8.99996 2.8125C7.9195 2.81622 6.85127 3.04135 5.86121 3.474L6.72746 4.34137C7.45582 4.07605 8.22477 3.93939 8.99996 3.9375C11.385 3.9375 13.3638 5.2515 14.814 6.70162C15.5119 7.40328 16.1375 8.17327 16.6815 9C16.6162 9.09788 16.5442 9.20587 16.4621 9.324C16.0852 9.864 15.5283 10.584 14.814 11.2984C14.6283 11.484 14.4348 11.6674 14.2323 11.8451L15.0288 12.6427Z"
+                                            fill="#635C5C" fill-opacity="0.6" />
+                                        <path
+                                            d="M12.7092 10.323C12.9602 9.62079 13.0067 8.86176 12.8432 8.13419C12.6797 7.40663 12.313 6.74044 11.7857 6.21314C11.2584 5.68585 10.5923 5.31913 9.86468 5.15565C9.13712 4.99218 8.37809 5.03867 7.67591 5.28972L8.60178 6.2156C9.03413 6.15371 9.47495 6.19337 9.88931 6.33143C10.3037 6.46949 10.6802 6.70215 10.989 7.01098C11.2979 7.31982 11.5305 7.69633 11.6686 8.11069C11.8066 8.52505 11.8463 8.96587 11.7844 9.39822L12.7092 10.323ZM9.39828 11.7843L10.323 12.7091C9.62085 12.9601 8.86182 13.0066 8.13426 12.8432C7.40669 12.6797 6.7405 12.313 6.2132 11.7857C5.68591 11.2584 5.31919 10.5922 5.15572 9.86462C4.99224 9.13706 5.03873 8.37802 5.28978 7.67585L6.21566 8.60172C6.15377 9.03407 6.19343 9.47489 6.33149 9.88925C6.46955 10.3036 6.70221 10.6801 7.01105 10.989C7.31988 11.2978 7.69639 11.5305 8.11075 11.6685C8.52511 11.8066 8.96593 11.8462 9.39828 11.7843Z"
+                                            fill="#635C5C" fill-opacity="0.6" />
+                                        <path
+                                            d="M3.76875 6.15375C3.56625 6.33375 3.37162 6.516 3.186 6.70162C2.4881 7.40327 1.86246 8.17326 1.3185 9L1.53787 9.324C1.91475 9.864 2.47163 10.584 3.186 11.2984C4.63613 12.7485 6.61613 14.0625 9 14.0625C9.8055 14.0625 10.5638 13.9129 11.2725 13.6575L12.1388 14.526C11.1487 14.9586 10.0805 15.1837 9 15.1875C3.375 15.1875 0 9 0 9C0 9 1.05638 7.06387 2.97113 5.35725L3.76762 6.15487L3.76875 6.15375ZM15.3517 16.1482L1.85175 2.64825L2.64825 1.85175L16.1483 15.3517L15.3517 16.1482Z"
+                                            fill="#635C5C" fill-opacity="0.6" />
+                                    </g>
+                                </svg></span>
+                        </div>
+                        <button class="btn bg-primary text-light fw-bolder ">Sign up</button>
+                    </form>
                 </div>
             </div>
         </div>
