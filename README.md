@@ -2,8 +2,6 @@
 
 ## Responsive UI with Bootstrap
 
-![Responsive UI](./screenshots/responsive-ui-screenshot.png)
-
 This project showcases a responsive user interface (UI) designed for all devices using the Bootstrap framework. The UI is not only visually appealing but also adapts seamlessly to different screen sizes and orientations. SCSS has been used for customization, allowing for easy theming and style adjustments.
 
 ### Features
@@ -19,13 +17,13 @@ This project showcases a responsive user interface (UI) designed for all devices
 ### Screenshots
 
 #### Desktop View
-![Desktop View](./screenshots/desktop-view.png)
+![Desktop View](https://github.com/GhazalBasalighe/hw09_maktab99/assets/127536254/c1e9bd4e-81b2-448d-b83a-ab402446cfd8)
 
 #### Tablet View
-![Tablet View](./screenshots/tablet-view.png)
+![Tablet View](https://github.com/GhazalBasalighe/hw09_maktab99/assets/127536254/d3deffe2-3dff-4a65-bdd2-b37a2bebe282)
 
 #### Mobile View
-![Mobile View](./screenshots/mobile-view.png)
+![Mobile View](https://github.com/GhazalBasalighe/hw09_maktab99/assets/127536254/b3c3450f-51cf-437f-9117-72c84fdcbf54)
 
 ### Getting Started
 
