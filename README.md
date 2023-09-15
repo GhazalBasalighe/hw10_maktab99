@@ -1,4 +1,3 @@
-```markdown
 # Responsive UI with Bootstrap & BMI Calculator
 
 ## Responsive UI with Bootstrap
