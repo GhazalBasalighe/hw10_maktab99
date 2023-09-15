@@ -1,5 +1,3 @@
-Certainly! Here's a combined README for both projects, one involving a responsive UI using the Bootstrap framework, and the other being a BMI Calculator:
-
 ```markdown
 # Responsive UI with Bootstrap & BMI Calculator
 
